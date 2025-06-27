@@ -114,9 +114,9 @@ if __name__ == '__main__':
     # ** IMPORTANT: UPDATE THIS PATH **
     # Set the path to the root folder of the vehicle you want to process.
     # Use a forward slash '/' even on Windows.
-    VEHICLE_BASE_PATH = './Data/Vehicle 2' # Example path
+    VEHICLE_BASE_PATH = './Data/Vehicle 1' # Example path
 
     # Define the output file name
-    OUTPUT_FILENAME = 'processed_vehicle_2.parquet'
+    OUTPUT_FILENAME = 'processed_vehicle_1.parquet'
 
     preprocess_vehicle_data(VEHICLE_BASE_PATH, OUTPUT_FILENAME)
